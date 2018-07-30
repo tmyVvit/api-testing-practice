@@ -30,10 +30,12 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkResponseCodeForCorrectRequest() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/2016/drivers.json")
+                .then()
+                .statusCode(200);
     }
 
     /*******************************************************

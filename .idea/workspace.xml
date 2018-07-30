@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11c5930d-bfea-4cbd-8c2c-e3b09b7015fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestAssuredExercises4Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises4Test.java">
+      <file leaf-file-name="RestAssuredExercises5Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="236">
+              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -460,6 +460,7 @@
         <option value="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises2Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises3Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises4Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java" />
       </list>
     </option>
   </component>
@@ -575,32 +576,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredExercises4Test.checkNumberOfPayments">
+  <component name="RunManager" selected="JUnit.RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="RestAssuredExercises3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-testing-practice_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises3Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="RestAssuredExercises3Test.useExtractedDriverId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing-practice_test" />
@@ -694,6 +672,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-testing-practice_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises5Test" />
+      <option name="METHOD_NAME" value="checkThirdSpeedRecordWasSetIn1955" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -733,19 +734,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RestAssuredExercises3Test" />
       <item itemvalue="JUnit.RestAssuredExercises3Test.useResponseSpecification" />
       <item itemvalue="JUnit.RestAssuredExercises3Test.useExtractedDriverId" />
       <item itemvalue="JUnit.RestAssuredExercises4Test" />
       <item itemvalue="JUnit.RestAssuredExercises4Test.checkNumberOfPayments" />
+      <item itemvalue="JUnit.RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" />
         <item itemvalue="JUnit.RestAssuredExercises4Test.checkNumberOfPayments" />
         <item itemvalue="JUnit.RestAssuredExercises4Test" />
         <item itemvalue="JUnit.RestAssuredExercises3Test.useExtractedDriverId" />
         <item itemvalue="JUnit.RestAssuredExercises3Test.useResponseSpecification" />
-        <item itemvalue="JUnit.RestAssuredExercises3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -759,32 +760,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532917290682</updated>
-      <workItem from="1532917293807" duration="11569000" />
+      <workItem from="1532917293807" duration="12118000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 06m 23s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 07m 40s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 07m 56s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 08m 50s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 09m 09s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 09m 41s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 09m 50s.xml">
-      <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestAssuredExercises3Test_useResponseSpecification - 2018.07.30 at 14h 13m 06s.xml">
       <configuration name="RestAssuredExercises3Test.useResponseSpecification" configurationId="JUnit" />
     </history-entry>
@@ -794,9 +774,30 @@
     <history-entry file="RestAssuredExercises3Test_useExtractedDriverId - 2018.07.30 at 14h 13m 24s.xml">
       <configuration name="RestAssuredExercises3Test.useExtractedDriverId" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestAssuredExercises4Test - 2018.07.30 at 14h 25m 40s.xml">
+      <configuration name="RestAssuredExercises4Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises4Test_checkNumberOfPayments - 2018.07.30 at 14h 28m 31s.xml">
+      <configuration name="RestAssuredExercises4Test.checkNumberOfPayments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises4Test_checkNumberOfPayments - 2018.07.30 at 14h 29m 17s.xml">
+      <configuration name="RestAssuredExercises4Test.checkNumberOfPayments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises5Test_checkThirdSpeedRecordWasSetIn1955 - 2018.07.30 at 14h 30m 44s.xml">
+      <configuration name="RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises5Test_checkThirdSpeedRecordWasSetIn1955 - 2018.07.30 at 14h 33m 51s.xml">
+      <configuration name="RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises5Test_checkThirdSpeedRecordWasSetIn1955 - 2018.07.30 at 14h 34m 11s.xml">
+      <configuration name="RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises5Test_checkThirdSpeedRecordWasSetIn1955 - 2018.07.30 at 14h 34m 41s.xml">
+      <configuration name="RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11569000" />
+    <option name="totallyTimeSpent" value="12118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -811,12 +812,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31467792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43822598" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32946146" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.20168954" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Gradle" />
@@ -957,8 +958,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises4Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="572">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
         </state>
       </provider>
     </entry>

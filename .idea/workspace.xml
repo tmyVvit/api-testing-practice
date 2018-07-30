@@ -511,7 +511,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredExercises1Test.checkResponseCodeForCorrectRequest">
+  <component name="RunManager" selected="JUnit.RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -607,19 +607,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SetUpTest.demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing-practice_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="show.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="show" />
-      <option name="MAIN_CLASS_NAME" value="show.SetUpTest" />
-      <option name="METHOD_NAME" value="demo" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises1Test" />
+      <option name="METHOD_NAME" value="checkResponseCodeForIncorrectRequest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -669,19 +669,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SetUpTest.demo" />
       <item itemvalue="JUnit.RestAssuredExamples.checkResponseHeaders" />
       <item itemvalue="JUnit.RestAssuredExamples.useQueryParameter" />
       <item itemvalue="JUnit.RestAssuredExamples.usePreviouslyStoredAuthToken" />
       <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForCorrectRequest" />
+      <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest" />
         <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForCorrectRequest" />
         <item itemvalue="JUnit.RestAssuredExamples.usePreviouslyStoredAuthToken" />
         <item itemvalue="JUnit.RestAssuredExamples.useQueryParameter" />
         <item itemvalue="JUnit.RestAssuredExamples.checkResponseHeaders" />
-        <item itemvalue="JUnit.SetUpTest.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -700,9 +700,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SetUpTest_demo - 2018.07.30 at 10h 41m 26s.xml">
-      <configuration name="SetUpTest.demo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SetUpTest_demo - 2018.07.30 at 10h 43m 54s.xml">
       <configuration name="SetUpTest.demo" configurationId="JUnit" />
     </history-entry>
@@ -729,6 +726,9 @@
     </history-entry>
     <history-entry file="RestAssuredExamples_usePreviouslyStoredAuthToken - 2018.07.30 at 10h 48m 45s.xml">
       <configuration name="RestAssuredExamples.usePreviouslyStoredAuthToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises1Test_checkResponseCodeForCorrectRequest - 2018.07.30 at 10h 55m 17s.xml">
+      <configuration name="RestAssuredExercises1Test.checkResponseCodeForCorrectRequest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">

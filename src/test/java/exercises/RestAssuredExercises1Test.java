@@ -46,10 +46,12 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkResponseCodeForIncorrectRequest() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/incorrect.json")
+                .then()
+                .statusCode(404);
     }
 
     /*******************************************************
@@ -60,10 +62,11 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkResponseContentTypeJson() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get()
+                .then();
     }
 
     /***********************************************

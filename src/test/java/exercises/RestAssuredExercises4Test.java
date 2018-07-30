@@ -41,7 +41,16 @@ public class RestAssuredExercises4Test {
     private static String accessToken;
 
     public static void retrieveOAuthToken() {
-
+        accessToken = given()
+                        .auth()
+                        .preemptive()
+                        .basic("oauth", "gimmeatoken")
+                        .spec(requestSpec)
+                        .when()
+                        .get("/oauth2/token")
+                        .then()
+                        .extract()
+                        .path("access_token");
     }
 
     /*******************************************************

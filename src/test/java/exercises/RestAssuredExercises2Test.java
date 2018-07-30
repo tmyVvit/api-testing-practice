@@ -1,11 +1,18 @@
 package exercises;
 
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.specification.Argument;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 
 public class RestAssuredExercises2Test {
@@ -28,6 +35,24 @@ public class RestAssuredExercises2Test {
 	 * a specific circuit can be found (specify that Monza 
 	 * is in Italy, for example) 
 	 ******************************************************/
+
+	static Stream<Arguments> CircuitDataProvider(){
+		return Stream.of(
+				Arguments.of("monza", "Italy")
+		);
+	}
+
+	@ParameterizedTest
+	@MethodSource("CircuitDataProvider")
+	public void check_coutry_for_specific_circuit(String circuitName, String country){
+		given()
+				.spec(requestSpec)
+				.pathParam("circuit", circuitName)
+				.when()
+				.get("/circuits/{circuit}.json")
+				.then().log().all()
+				.body("MRData.CircuitTable.Circuits[0].Location.country", is(country));
+	}
 
 	//todo
 

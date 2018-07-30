@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.Matchers.lessThan;
 
 public class RestAssuredExercises4Test {
 
@@ -86,9 +87,11 @@ public class RestAssuredExercises4Test {
     @Test
     public void checkResponseTimeFor2014CircuitList() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/2014/circuits.json")
+                .then()
+                .time(lessThan(100L));
     }
 }

@@ -36,6 +36,8 @@ public class RestAssuredExercises2Test {
 	 * is in Italy, for example) 
 	 ******************************************************/
 
+	//todo
+
 	static Stream<Arguments> CircuitDataProvider(){
 		return Stream.of(
 				Arguments.of("monza", "Italy")
@@ -54,7 +56,7 @@ public class RestAssuredExercises2Test {
 				.body("MRData.CircuitTable.Circuits[0].Location.country", is(country));
 	}
 
-	//todo
+
 
 	/*******************************************************
 	 * Use junit-jupiter-params for @ParameterizedTest that specifies for all races
@@ -63,7 +65,28 @@ public class RestAssuredExercises2Test {
 	 * (race 1 = 1 pitstop, 2 = 3, 3 = 2, 4 = 2)
 	 ******************************************************/
 
+	static Stream<Arguments> CircuitDataProvider2015(){
+		return Stream.of(
+				Arguments.of("1", 1),
+				Arguments.of("2", 3),
+				Arguments.of("3", 2),
+				Arguments.of("4", 2)
+				);
+	}
+
+	@ParameterizedTest
+	@MethodSource("CircuitDataProvider2015")
+	public void check_races_in_2015_pit_stops_number(String race, int count){
+		given()
+				.spec(requestSpec)
+				.pathParam("race", race)
+				.when()
+				.get("/2015/{race}/drivers/max_verstappen/pitstops.json")
+				.then()
+				.body("MRData.RaceTable.Races[0].PitStops.size()", is(count));
+	}
 	//todo
+
 
 	/*******************************************************
 	 * Request data for a specific circuit (for Monza this 

@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.CoreMatchers.is;
 
 public class RestAssuredExercises3Test {
@@ -66,15 +67,13 @@ public class RestAssuredExercises3Test {
 
 
     static void getNinthDriverId() {
-        ninthDriverId = given().spec(requestSpec).get("/2016/drivers.json").asString();
-
-        given()
-                .spec(requestSpec)
-                .when()
-                .get("/2016/drivers.json")
-                .then();
-//                .body("MRData.DriverTable.Drivers[8].driverId",)
-
+        ninthDriverId = given()
+                            .spec(requestSpec)
+                            .when()
+                            .get("/2016/drivers.json")
+                            .then()
+                            .extract()
+                            .path("MRData.DriverTable.Drivers[8].driverId");
     }
 
     /*******************************************************
@@ -88,10 +87,14 @@ public class RestAssuredExercises3Test {
     @Test
     public void useResponseSpecification() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/2014/circuits.json")
+                .then().log().all()
+                .spec(responseSpec)
+                .body("MRData.CircuitTable.Circuits.Location.locality[0]", is("Melbourne"));
+
     }
 
     /*******************************************************

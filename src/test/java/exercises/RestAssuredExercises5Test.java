@@ -102,10 +102,14 @@ public class RestAssuredExercises5Test {
 	
 	@Test
 	public void checkTwoRecordsHaveBeenSetByCarsWhoseMakeEndOnBenz() {
-		
-		given().
-			spec(requestSpec).
-		when().
-		then();
+
+
+		given()
+				.spec(requestSpec)
+				.when()
+				.get("/xml/speedrecords")
+				.then().log().all()
+				.body("speedRecords.car.", is(2))
+				;
 	}
 }

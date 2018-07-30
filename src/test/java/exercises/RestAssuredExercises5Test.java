@@ -109,7 +109,7 @@ public class RestAssuredExercises5Test {
 				.when()
 				.get("/xml/speedrecords")
 				.then().log().all()
-				.body("speedRecords.car.", is(2))
+				.body("speedRecords.car.@make.grep(~/.*Benz/).size()", is(2))
 				;
 	}
 }

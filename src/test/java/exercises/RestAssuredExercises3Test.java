@@ -97,6 +97,7 @@ public class RestAssuredExercises3Test {
 
     }
 
+    
     /*******************************************************
      * Retrieve the driver data for the ninth mentioned driver
      * Use the previously extracted driverId to do this

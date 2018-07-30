@@ -7,6 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.CoreMatchers.is;
 
 
@@ -99,10 +100,12 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkThereWasARaceAtSilverstoneIn2014() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/2014/circuits.json")
+                .then()
+                .body("MRData.CircuitTable.Circuits.circuitId", hasItem("silverstone"));
     }
 
     /***********************************************

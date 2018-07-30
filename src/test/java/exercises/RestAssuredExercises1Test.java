@@ -7,6 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 
 public class RestAssuredExercises1Test {
@@ -81,10 +82,12 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkTheFirstRaceOf2014WasAtAlbertPark() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .when().log().all()
+                .get("/2014/circuits.json")
+                .then().log().all()
+                .body("MRData.CircuitTable.Circuits[0].circuitId", is("albert_park"));
     }
 
     /***********************************************

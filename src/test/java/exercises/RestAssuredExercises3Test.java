@@ -97,7 +97,7 @@ public class RestAssuredExercises3Test {
 
     }
 
-    
+
     /*******************************************************
      * Retrieve the driver data for the ninth mentioned driver
      * Use the previously extracted driverId to do this
@@ -108,9 +108,12 @@ public class RestAssuredExercises3Test {
     @Test
     public void useExtractedDriverId() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .spec(requestSpec)
+                .pathParam("driverId", ninthDriverId)
+                .when()
+                .get("/drivers/{driverId}.json")
+                .then()
+                .body("MRData.DriverTable.Drivers[0].nationality", is("German"));
     }
 }

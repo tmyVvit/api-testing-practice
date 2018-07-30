@@ -547,7 +547,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredExercises3Test.useResponseSpecification">
+  <component name="RunManager" selected="JUnit.RestAssuredExercises3Test.useExtractedDriverId">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -565,29 +565,6 @@
       <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises2Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RestAssuredExercises2Test.check_coutry_for_specific_circuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-testing-practice_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises2Test" />
-      <option name="METHOD_NAME" value="check_coutry_for_specific_circuit(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -634,6 +611,29 @@
       <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises3Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RestAssuredExercises3Test.useExtractedDriverId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-testing-practice_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises3Test" />
+      <option name="METHOD_NAME" value="useExtractedDriverId" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -705,19 +705,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RestAssuredExercises2Test.check_coutry_for_specific_circuit" />
       <item itemvalue="JUnit.RestAssuredExercises2Test.check_races_in_2015_pit_stops_number" />
       <item itemvalue="JUnit.RestAssuredExercises2Test" />
       <item itemvalue="JUnit.RestAssuredExercises3Test" />
       <item itemvalue="JUnit.RestAssuredExercises3Test.useResponseSpecification" />
+      <item itemvalue="JUnit.RestAssuredExercises3Test.useExtractedDriverId" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestAssuredExercises3Test.useExtractedDriverId" />
         <item itemvalue="JUnit.RestAssuredExercises3Test.useResponseSpecification" />
         <item itemvalue="JUnit.RestAssuredExercises3Test" />
         <item itemvalue="JUnit.RestAssuredExercises2Test" />
         <item itemvalue="JUnit.RestAssuredExercises2Test.check_races_in_2015_pit_stops_number" />
-        <item itemvalue="JUnit.RestAssuredExercises2Test.check_coutry_for_specific_circuit" />
       </list>
     </recent_temporary>
   </component>

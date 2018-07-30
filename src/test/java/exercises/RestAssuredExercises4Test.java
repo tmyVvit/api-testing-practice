@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 public class RestAssuredExercises4Test {
 
@@ -65,10 +66,14 @@ public class RestAssuredExercises4Test {
     @Test
     public void checkNumberOfPayments() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+        given()
+                .auth()
+                .oauth2(accessToken)
+                .spec(requestSpec)
+                .when()
+                .get("/payments")
+                .then().log().all()
+                .body("paymentsCount", is(4));
     }
 
     /*******************************************************

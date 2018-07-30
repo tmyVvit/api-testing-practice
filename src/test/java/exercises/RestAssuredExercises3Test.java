@@ -1,12 +1,17 @@
 package exercises;
 
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.internal.ResponseSpecificationImpl;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 public class RestAssuredExercises3Test {
 
@@ -42,7 +47,11 @@ public class RestAssuredExercises3Test {
 
 
     static void createResponseSpecification() {
-
+        responseSpec = new ResponseSpecBuilder()
+                .expectStatusCode(200)
+                .expectContentType(ContentType.JSON)
+                .expectBody("MRData.CircuitTable.Circuits.circuitName[0]", is("Albert Park Grand Prix Circuit"))
+                .build();
 
     }
 
@@ -57,7 +66,14 @@ public class RestAssuredExercises3Test {
 
 
     static void getNinthDriverId() {
+        ninthDriverId = given().spec(requestSpec).get("/2016/drivers.json").asString();
 
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/2016/drivers.json")
+                .then();
+//                .body("MRData.DriverTable.Drivers[8].driverId",)
 
     }
 

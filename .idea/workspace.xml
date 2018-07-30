@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises1Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
-              <caret line="107" column="84" selection-start-line="107" selection-start-column="84" selection-end-line="107" selection-end-column="84" />
+              <caret line="125" column="105" selection-start-line="125" selection-start-column="105" selection-end-line="125" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -527,32 +527,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredExercises1Test.checkThereWasARaceAtSilverstoneIn2014">
+  <component name="RunManager" selected="JUnit.RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="RestAssuredExercises1Test.checkResponseCodeForCorrectRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-testing-practice_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises1Test" />
-      <option name="METHOD_NAME" value="checkResponseCodeForCorrectRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing-practice_test" />
@@ -646,6 +623,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-testing-practice_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.RestAssuredExercises1Test" />
+      <option name="METHOD_NAME" value="checkThereWasNoRaceAtNurburgringIn2014" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -685,19 +685,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForCorrectRequest" />
       <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest" />
       <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseContentTypeJson" />
       <item itemvalue="JUnit.RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" />
       <item itemvalue="JUnit.RestAssuredExercises1Test.checkThereWasARaceAtSilverstoneIn2014" />
+      <item itemvalue="JUnit.RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" />
         <item itemvalue="JUnit.RestAssuredExercises1Test.checkThereWasARaceAtSilverstoneIn2014" />
         <item itemvalue="JUnit.RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" />
         <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseContentTypeJson" />
         <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForIncorrectRequest" />
-        <item itemvalue="JUnit.RestAssuredExercises1Test.checkResponseCodeForCorrectRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -711,44 +711,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532917290682</updated>
-      <workItem from="1532917293807" duration="3119000" />
+      <workItem from="1532917293807" duration="3743000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestAssuredExercises1Test_checkResponseContentTypeJson - 2018.07.30 at 11h 04m 10s.xml">
-      <configuration name="RestAssuredExercises1Test.checkResponseContentTypeJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkResponseContentTypeJson - 2018.07.30 at 11h 04m 24s.xml">
-      <configuration name="RestAssuredExercises1Test.checkResponseContentTypeJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkResponseContentTypeJson - 2018.07.30 at 11h 07m 10s.xml">
-      <configuration name="RestAssuredExercises1Test.checkResponseContentTypeJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 07m 17s.xml">
+    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 13m 03s.xml">
       <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 07m 35s.xml">
+    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 14m 48s.xml">
       <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 08m 02s.xml">
-      <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
+    <history-entry file="RestAssuredExercises1Test_checkThereWasARaceAtSilverstoneIn2014 - 2018.07.30 at 11h 14m 58s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasARaceAtSilverstoneIn2014" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 08m 30s.xml">
-      <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 22m 13s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 09m 35s.xml">
-      <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 22m 35s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 10m 20s.xml">
-      <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 23m 11s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RestAssuredExercises1Test_checkTheFirstRaceOf2014WasAtAlbertPark - 2018.07.30 at 11h 10m 57s.xml">
-      <configuration name="RestAssuredExercises1Test.checkTheFirstRaceOf2014WasAtAlbertPark" configurationId="JUnit" />
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 23m 31s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 23m 50s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 24m 27s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises1Test_checkThereWasNoRaceAtNurburgringIn2014 - 2018.07.30 at 11h 24m 37s.xml">
+      <configuration name="RestAssuredExercises1Test.checkThereWasNoRaceAtNurburgringIn2014" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3119000" />
+    <option name="totallyTimeSpent" value="3743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -831,7 +831,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises1Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
-          <caret line="107" column="84" selection-start-line="107" selection-start-column="84" selection-end-line="107" selection-end-column="84" />
+          <caret line="125" column="105" selection-start-line="125" selection-start-column="105" selection-end-line="125" selection-end-column="105" />
         </state>
       </provider>
     </entry>

@@ -118,10 +118,11 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkThereWasNoRaceAtNurburgringIn2014() {
 
-        given().
-                spec(requestSpec).
-                when().
-
-                then();
+        given()
+                .spec(requestSpec)
+                .when()
+                .get("/2014/circuits.json")
+                .then()
+                .body("MRData.CircuitTable.Circuits.findAll {it.circuitId == 'nerbergring'}.size()", is(0));
     }
 }
